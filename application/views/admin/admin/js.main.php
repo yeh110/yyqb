@@ -1,0 +1,1 @@
+(function(a,d,e,i,p){i=<?=$uid?>; e=<?=$iid?>; d=document; p={d:d.domain, u:d.location.href, t:d.title, r:d.referrer, a:'<?=site_url('/hm/pd')?>?id='+i+'&e='+e}; a=p.a+'&d='+p.d+'&u='+decodeURIComponent(p.u)+'&t='+decodeURIComponent(p.t)+'&r='+decodeURIComponent(p.r); d.writeln('<img src="'+a+'" style=" display:none;">'); })();

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+ body{ background: #fff;}
+.user_header{background:#197fe5; height:60px;}
+.user_header .wp{width:1100px; margin-left:auto; margin-right:auto;}
+.wp-logo{font-size:30px; color:#fff; line-height:60px; float: left;}
+.wp-fr{ float: right;}
+.wp-fr a{line-height:60px; font-size:16px; color:#fff; margin-left:50px;}
+.user_main{width:1002px; margin-left:auto; margin-right:auto; padding:80px 0 120px 0;}
+.formbox{width:420px; border:1px solid #e1e1e1; background:#fff; float:right;}
+.fb_hd{height:46px; border-bottom:1px solid #e1e1e1; padding-top:4px;}
+.fb_hd h3{line-height:46px; text-indent:24px; font-weight:normal; font-size:16px; color:#555;}
+
+
+.loginfrom{padding:30px 30px;}
+.loginfrom .login_input{display:block;position: relative;padding: 3px 0 3px 54px;border: 1px solid #e7e7eb;margin-top: -1px;}
+.login-icon{position: absolute;left: 15px;top: 50%;margin-top: -11px;width: 16px;height: 18px;vertical-align: middle;display: inline-block;}
+.login-icon.un{background: url("../images/login-ico.png") 0 0 no-repeat;}
+.login-icon.pwd{background: url("../images/login-ico.png") 0 -28px no-repeat;}
+.login-icon.yz{background: url("../images/login-ico.png") 0 -135px no-repeat;}
+.login_input input{border: 0;outline: 0;padding: 11px 0;vertical-align: middle;width: 100%;}
+.login_input input.input-verifycode{width:100px;}
+.verifyImg{vertical-align: bottom; position:absolute; left:160px; height:47px; top:0;}
+#verifyImg{cursor: pointer;}
+.verifyChange{position:absolute; right:20px; padding:11px 0; font-size:14px;}
+.verifyChange a{color:#428BCA; text-decoration:none;}
+.verifyChange a:hover{text-decoration:underline;}
+.login_btn_panel{padding-top:15px;}
+.login_btn{border-radius: 3px;cursor: pointer;background-color: #44b549;border:none;color: #fff;height: 36px;width: 120px;}
+.login_btn:hover{background-color: #2f9833;}
+.login_err_panel{color:#e15f63; font-size:13px; padding:0 0 8px 4px; display: none;}
+.notlogin{margin-left:20px;}
+.notlogin a{color:#428BCA;}
+.notlogin a:hover{text-decoration:underline;}
+.user_foot{ padding:20px 0 0 0; height:45px; text-align:center; color:#ccc; font-size:12px; border-top:1px solid #e1e1e1;}
